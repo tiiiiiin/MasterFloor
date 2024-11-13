@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6355d3aa04174862a65e749c561ee738" Name="Diagram1">
+        <EntityTypeShape EntityType="masterFloorModel.Area" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.City" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.Director" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.Indexes" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.LegalAdress" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.Material_type_import" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.NamePartner" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.NameProduct" Width="1.5" PointX="5.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.partner_products_import" Width="1.5" PointX="8" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.partners_import" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.product_type_import" Width="1.5" PointX="8" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.products_import" Width="1.5" PointX="8" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.Street" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.TypePartner" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterFloorModel.TypeProduct" Width="1.5" PointX="5.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="masterFloorModel.FK_LegalAdress_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_LegalAdress_City" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_partners_import_Director" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_LegalAdress_Indexes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_LegalAdress_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_partners_import_LegalAdress" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_partner_products_import_NamePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_partners_import_NamePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_partner_products_import_NameProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_products_import_NameProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_partners_import_TypePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_product_type_import_TypeProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="masterFloorModel.FK_products_import_TypeProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

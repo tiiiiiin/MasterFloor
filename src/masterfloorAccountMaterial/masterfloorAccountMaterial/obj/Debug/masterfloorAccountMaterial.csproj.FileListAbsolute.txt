@@ -1,0 +1,14 @@
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\masterfloorAccountMaterial.exe.config
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\masterfloorAccountMaterial.exe
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\masterfloorAccountMaterial.pdb
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\obj\Debug\masterfloorAccountMaterial.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\obj\Debug\masterfloorAccountMaterial.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\obj\Debug\masterfloorAccountMaterial.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\obj\Debug\masterfloorAccountMaterial.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\obj\Debug\masterfloorAccountMaterial.exe
+C:\Users\ADMIN\Desktop\masterfloor321\src\masterfloorAccountMaterial\masterfloorAccountMaterial\obj\Debug\masterfloorAccountMaterial.pdb

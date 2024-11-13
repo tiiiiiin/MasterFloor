@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:masterfloor.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="1000"
        Title="«Мастер пол» - добавление/редактирование партнера">
 
     <Grid>
@@ -39,7 +39,7 @@
             <Label Content="Отчество" Grid.Row="4" Grid.Column="0"/>
             <Label Content="Email" Grid.Row="5" Grid.Column="0"/>
             <Label Content="Номер телефона" Grid.Row="6" Grid.Column="0"/>
-            <Label Content="Пароль" Grid.Row="0" Grid.Column="2"/>
+           
 
             <Label Content="Рейтинг" Grid.Row="1" Grid.Column="2"/>
             <Label Content="Инн" Grid.Row="2" Grid.Column="2"/>
@@ -58,7 +58,6 @@
             <TextBox x:Name="PhoneNumTextBox" Grid.Row="6" Grid.Column="1"/>
 
 
-            <PasswordBox x:Name="PasswordBox" Grid.Row="0" Grid.Column="3"/>
             <TextBox x:Name="RatingTextBox" Grid.Row="1" Grid.Column="3"/>
             <TextBox x:Name="InnTextBox" Grid.Row="2" Grid.Column="3"/>
             <TextBox x:Name="IndexTextBox" Grid.Row="3" Grid.Column="3"/>

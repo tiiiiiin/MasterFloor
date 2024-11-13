@@ -20,9 +20,34 @@ namespace masterfloor.Pages
     /// </summary>
     public partial class HistoryPage : Page
     {
-        public HistoryPage()
+        public HistoryPage(int partnerId)
         {
-            InitializeComponent();
+            InitializeComponent(); LoadHistoryData(partnerId);
+        }
+        private void LoadHistoryData(int partnerId)
+        {
+
+            var historyData = Data.masterFloorEntities.GetContext().partner_products_import
+                .Where(p => p.IdNamePartner == partnerId)
+                .Select(p => new
+                {
+                    p.Id,
+                    p.IdNameProduct,
+                  
+                    p.CountOfProduct,
+                    p.DataOfSale
+                })
+                .ToList();
+
+            HistoryDataGrid.ItemsSource = historyData;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Classes.Manager.MainFrame.CanGoBack)
+            {
+                Classes.Manager.MainFrame.GoBack();
+            }
         }
     }
 }

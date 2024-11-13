@@ -1,0 +1,58 @@
+﻿<Page x:Class="masterfloor.Pages.ViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:masterfloor.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+        Title="«Мастер пол» - просмотр списка партнеров">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListView Grid.Row="0" x:Name="PartnersListView" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="250"></ColumnDefinition>
+                            <ColumnDefinition Width="150"></ColumnDefinition>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock FontWeight="Bold" FontSize="15">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0} | {1}" >
+                                        <Binding Path="TypePartner.Name" />
+                                        <Binding Path="NamePartner.Name" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                            <TextBlock FontSize="13">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0} {1} {2}">
+                                        <Binding Path="Director.LastName" />
+                                        <Binding Path="Director.FirstName" />
+                                        <Binding Path="Director.PatronymicName" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                            <TextBlock Text="{Binding PhoneNum, StringFormat={}{0}}" FontSize="13"></TextBlock>
+                            <TextBlock Text="{Binding Rating, StringFormat={}Рейтинг: {0}}" FontSize="13"></TextBlock>
+                            </StackPanel>
+                                <TextBlock Grid.Column="1" x:Name="DiscountTextBlock" Loaded="DiscountTextBlock_Loaded" HorizontalAlignment="Center" FontSize="13"/>
+                                <StackPanel Grid.Column="2">
+                                    <Button x:Name="EditButton" Content="Редактировать" Click="EditButton_Click" Margin="10"/>
+                                    <Button x:Name="HistoryButton" Content="История" Click="HistoryButton_Click" Margin="10"/>
+                                </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="1" x:Name="AddButton" Content="Добавить поставщика" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"  Click="AddButton_Click"/>
+    </Grid>
+</Page>
